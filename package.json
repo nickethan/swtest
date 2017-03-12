@@ -1,0 +1,29 @@
+{
+  "name": "swtest",
+  "version": "1.0.0",
+  "description": "swtest of doom",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "request-promise": "^4.1.1",
+    "request": "^2.80.0",
+    "swapi-node": "^0.4.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickethan/swtest.git"
+  },
+  "author": "Nick Ethan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickethan/swtest/issues"
+  },
+  "homepage": "https://github.com/nickethan/swtest#readme"
+}

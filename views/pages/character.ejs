@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <% if (character) { %>
+                <% for (var prop in character ) { %>
+                    <strong><%- prop %>:</strong> <%- character[prop] %><br>
+                <% } %>
+            <% } else { %>
+                <h3>THAT CHARACTER DOES NOT EXIST!!!</h3>
+            <% } %>  
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>
+</html>
